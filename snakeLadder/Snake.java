@@ -31,7 +31,23 @@ while(pos!=100)
 				{
 					pos=pos- dice;
 				}
+				if(pos == 100)
+				{
+					System.out.println("Winner");
+				}
+				if(pos<0)
+				{pos=0;}
+				if(pos>100)
+				{
+					pos=pos-dice;
+				}
 				
+				System.out.println("Position is "+ pos);
+				System.out.println("-------");
+			}
+			System.out.println("Total dice thrown "+ i);
+
+
 			
 	}
 }
