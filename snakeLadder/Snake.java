@@ -45,7 +45,7 @@ while(pos!=100)
 				System.out.println("Position is "+ pos);
 				System.out.println("-------");
 			}
-			System.out.println("Total dice thrown "+ i);
+			System.out.println("Total dice throw "+ i);
 
 
 			
